@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "Flask is working!"
+    return "Flask is working!!"
 
 @app.route("/receive_usage", methods=["POST"])
 def receive_usage():
